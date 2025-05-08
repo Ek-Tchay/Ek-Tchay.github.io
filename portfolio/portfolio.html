@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Porto - Tailwind Template</title>
+        <link rel="stylesheet" href="assets/css/tailwind.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+
+    <header class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-3 dark:bg-neutral-800">
+        <nav class="max-w-[85rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between">
+          <img src="src/images/Capture d’écran 2025-05-06 à 3.11.16 PM.png" alt="image logo ETNA" width = 10%>
+          <div class="sm:order-3 flex items-center gap-x-2">
+            <button type="button" class="sm:hidden hs-collapse-toggle relative size-9 flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-neutral-700 dark:text-white dark:hover:bg-white/10 dark:focus:bg-white/10" id="hs-navbar-alignment-collapse" aria-expanded="false" aria-controls="hs-navbar-alignment" aria-label="Toggle navigation" data-hs-collapse="#hs-navbar-alignment">
+              <svg class="hs-collapse-open:hidden shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="18" y2="18"/></svg>
+              <svg class="hs-collapse-open:block hidden shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+              <span class="sr-only">Toggle</span>
+            </button>
+            <button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700">
+                <a href="src/images/CV Ek-Tchay POV.pdf" download class="inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
+                    Télécharger mon CV
+                  </a>
+            </button>
+          </div>
+          <div id="hs-navbar-alignment" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:grow-0 sm:basis-auto sm:block sm:order-2" aria-labelledby="hs-navbar-alignment-collapse">
+            <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
+              <a class="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500" href="index.html" aria-current="page">Accueil</a>
+              <a class="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500" href="a_propos.html">A propos</a>
+              <a class="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500" href="portfolio.html">Portfolio</a>
+              <a class="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500" href="contact.html">Contact</a>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+        <!-- Inclure Tailwind CSS depuis un CDN -->
+        <script src="https://cdn.tailwindcss.com"></script>
+      </head>
+      <body class="bg-gray-100 py-10">
+      
+        <!-- Carrousel -->
+        <div class="relative max-w-4xl mx-auto">
+          <!-- Conteneur des images -->
+          <div class="carousel relative w-full overflow-hidden rounded-lg shadow-lg">
+            <div class="carousel-item w-full h-full bg-cover bg-center flex flex-col items-center justify-center" style="background-image: url('https://via.placeholder.com/800x400/ff7f7f/333333');">
+  
+                <!-- Slide 1 -->
+                <img src="src/images/portfolio/bataille navale.jpeg" alt="Image centrée" class="width=100% object-contain mb-4">
+                <p class="text-white text-xl font-semibold bg-black/50 px-4 py-2 rounded">Bataille Navale</p>
+              </div>
+              
+                <!-- Slide 2 -->
+                <div class="carousel-item w-full h-full bg-cover bg-center flex flex-col items-center justify-center" style="background-image: url('https://via.placeholder.com/800x400/ff7f7f/333333');">
+                <img src="src/images/portfolio/LeJustePrix.jpg" alt="Image centrée" class="width=100% object-contain mb-4">
+                <p class="text-white text-xl font-semibold bg-black/50 px-4 py-2 rounded">Le Juste Prix</p>
+              </div>
+      
+                <!-- Slide 3 -->
+                <div class="carousel-item w-full h-full bg-cover bg-center flex flex-col items-center justify-center" style="background-image: url('https://via.placeholder.com/800x400/ff7f7f/333333');">
+                <img src="src/images/portfolio/lecompteestbon.jpeg" alt="Image centrée" class="width=100% object-contain mb-4">
+                <p class="text-white text-xl font-semibold bg-black/50 px-4 py-2 rounded">Le compte est bon</p>
+              </div>
+      
+                <!-- Slide 4 -->
+                <div class="carousel-item w-full h-full bg-cover bg-center flex flex-col items-center justify-center" style="background-image: url('https://via.placeholder.com/800x400/ff7f7f/333333');">
+                    <img src="src/images/portfolio/Capture d’écran 2025-05-09 à 12.07.44 AM.png" alt="Image centrée" class="w-52 mb-4">
+                    <p class="text-white text-xl font-semibold bg-black/50 px-4 py-2 rounded">Robbie Lens</p>
+                  </div>
+
+            <!-- Boutons de navigation avec des styles améliorés -->
+            <button id="prev" class="absolute top-1/2 left-0 transform -translate-y-1/2 text-white bg-blue-600 p-3 rounded-full shadow-lg transition-all duration-300 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-500">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+              </svg>
+            </button>
+            <button id="next" class="absolute top-1/2 right-0 transform -translate-y-1/2 text-white bg-blue-600 p-3 rounded-full shadow-lg transition-all duration-300 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-500">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      
+        <!-- Script pour gérer le carrousel -->
+        <script>
+          const prevButton = document.getElementById('prev');
+          const nextButton = document.getElementById('next');
+          const slides = document.querySelectorAll('.carousel-item');
+          let currentSlide = 0;
+      
+          // Fonction pour afficher la diapositive courante
+          const updateSlides = () => {
+            slides.forEach((slide, index) => {
+              slide.classList.add('hidden'); // Masquer toutes les diapositives
+              if (index === currentSlide) {
+                slide.classList.remove('hidden'); // Afficher la diapositive actuelle
+              }
+            });
+          };
+      
+          // Fonction pour avancer à la diapositive suivante
+          nextButton.addEventListener('click', () => {
+            currentSlide = (currentSlide === slides.length - 1) ? 0 : currentSlide + 1;
+            updateSlides();
+          });
+      
+          // Fonction pour revenir à la diapositive précédente
+          prevButton.addEventListener('click', () => {
+            currentSlide = (currentSlide === 0) ? slides.length - 1 : currentSlide - 1;
+            updateSlides();
+          });
+      
+          // Fonction pour changer de diapositive automatiquement toutes les 3 secondes
+          const autoSlide = () => {
+            setInterval(() => {
+              currentSlide = (currentSlide === slides.length - 1) ? 0 : currentSlide + 1;
+              updateSlides();
+            }, 3000); // Changer toutes les 3 secondes
+          };
+      
+          // Initialiser le carrousel
+          updateSlides();
+          autoSlide(); // Démarrer le défilement automatique
+      
+        </script>
+
+    <body class="bg-gray-100">
+        
+        <section class="py-10 md:py-16">
+
+            <div class="container max-w-screen-xl mx-auto px-4">
+
+            </div>
+
+        </section>
+
+        <section class="py-10 md:py-16">
+
+          <div class="container max-w-screen-xl mx-auto px-4">
+            <div class="flex flex-col lg:flex-row justify-between">
+                <!-- Section de titre et description -->
+                <div class="mb-10 lg:mb-0">
+                    <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Portfolio</h1>
+                    <p class="font-normal text-gray-500 text-xs md:text-base"></p>
+                </div>
+        
+                <!-- Liste des projets -->
+                <div class="space-y-24">
+                    <!-- Projet 01 -->
+                    <div class="flex space-x-6">
+                        <h1 class="font-normal text-gray-700 text-3xl md:text-4xl">01</h1>
+                        <span class="w-28 h-0.5 bg-gray-300 mt-5"></span>
+                        <div>
+                            <h1 class="font-normal text-gray-700 text-3xl md:text-4xl mb-5">Bataille Navale</h1>
+                            <p class="font-normal text-gray-500 text-sm md:text-base">Chaque joueur place ses navires sur une grille et tente de deviner où sont les navires adverses.<br>Le but est de couler tous les navires de l’adversaire avant qu’il ne coule les vôtres.<br>Le jeu se joue tour par tour, avec des indices donnés à chaque attaque.</p>
+                        </div>
+                    </div>
+        
+                    <!-- Projet 02 -->
+                    <div class="flex space-x-6">
+                        <h1 class="font-normal text-gray-700 text-3xl md:text-4xl">02</h1>
+                        <span class="w-28 h-0.5 bg-gray-300 mt-5"></span>
+                        <div>
+                            <h1 class="font-normal text-gray-700 text-3xl md:text-4xl mb-5">Le Juste Prix</h1>
+                            <p class="font-normal text-gray-500 text-sm md:text-base">Un jeu où les joueurs doivent estimer le prix d’un produit sans le dépasser.<br>Le but est de trouver le prix exact ou de s’en rapprocher le plus possible, tout en évitant de faire une surenchère.</p>
+                        </div>
+                    </div>
+        
+                    <!-- Projet 03 -->
+                    <div class="flex space-x-6">
+                        <h1 class="font-normal text-gray-700 text-3xl md:text-4xl">03</h1>
+                        <span class="w-28 h-0.5 bg-gray-300 mt-5"></span>
+                        <div>
+                            <h1 class="font-normal text-gray-700 text-3xl md:text-4xl mb-5">Le compte est bon</h1>
+                            <p class="font-normal text-gray-500 text-sm md:text-base">Jeu de calcul mental où les joueurs doivent atteindre un nombre cible en utilisant des chiffres donnés<br>et les opérations de base(addition, soustraction, multiplication, division).<br>Le but est de trouver la combinaison de calculs permettant d’obtenir le nombre cible.</p>
+                        </div>
+                    </div>
+        
+                    <!-- Projet 04 -->
+                    <div class="flex space-x-6">
+                        <h1 class="font-normal text-gray-700 text-3xl md:text-4xl">04</h1>
+                        <span class="w-28 h-0.5 bg-gray-300 mt-5"></span>
+                        <div>
+                            <h1 class="font-normal text-gray-700 text-3xl md:text-4xl mb-5">Robbie Lens</h1>
+                            <p class="font-normal text-gray-500 text-sm md:text-base">Site internet de Robbie Lens, photographe professionnelle proposant ses services.</p>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section class="py-10 md:py-16">
+
+            <div class="container max-w-screen-xl mx-auto px-4">
+
+            </div>
+
+        </section>
+
+        <footer class="py-10 md:py-16 mb-20 md:mb-40 lg::mb-52">
+
+            <div class="container max-w-screen-xl mx-auto px-4">
+
+                <div class="text-center">
+                    <h1 class="font-medium text-gray-700 text-4xl md:text-5xl mb-5">Links</h1>
+                    <a href="contact.html">
+                        <p class="font-normal text-gray-400 text-md md:text-lg mb-20">Pour me contacter, cliquez ici pour être redirigé vers la section contact<br></p>
+                    </a>
+
+                    <div class="flex items-center justify-center space-x-8">
+                        <a href="https://www.linkedin.com/in/ek-tchay-pov/" target="_blank" rel="noopener noreferrer">
+                            <img src="src/images/linkedin.svg" alt="Logo Linkedin" width="100%">
+                        </a>
+                        
+                        <a href="https://github.com/Ek-Tchay" target="_blank" rel="noopener noreferrer">
+                            <img src="src/images/github.svg" alt="Image" width="100%">
+                        </a>
+
+                        <a href="portfolio.html">
+                            <img src="src/images/chevron-up.svg" alt="Image" width="100%">
+                        </a>
+    
+                    </div>
+                </div>
+
+            </div>
+
+        </footer>
+
+
+        <script>
+            feather.replace()
+        </script>
+
+    </body>
+</html>
