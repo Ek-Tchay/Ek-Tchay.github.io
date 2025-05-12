@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Porto - Tailwind Template</title>
+        <link rel="stylesheet" href="assets/css/tailwind.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+
+    <header class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-3 dark:bg-neutral-800">
+        <nav class="max-w-[85rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between">
+          <img src="src/images/Capture d’écran 2025-05-06 à 3.11.16 PM.png" alt="image logo ETNA" width = 10%>
+          <div class="sm:order-3 flex items-center gap-x-2">
+            <button type="button" class="sm:hidden hs-collapse-toggle relative size-9 flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-neutral-700 dark:text-white dark:hover:bg-white/10 dark:focus:bg-white/10" id="hs-navbar-alignment-collapse" aria-expanded="false" aria-controls="hs-navbar-alignment" aria-label="Toggle navigation" data-hs-collapse="#hs-navbar-alignment">
+              <svg class="hs-collapse-open:hidden shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="18" y2="18"/></svg>
+              <svg class="hs-collapse-open:block hidden shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+              <span class="sr-only">Toggle</span>
+            </button>
+            <button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700">
+                <a href="src/images/CV Ek-Tchay POV.pdf" download class="inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
+                    Télécharger mon CV
+                  </a>
+            </button>
+          </div>
+          <div id="hs-navbar-alignment" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:grow-0 sm:basis-auto sm:block sm:order-2" aria-labelledby="hs-navbar-alignment-collapse">
+            <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
+              <a class="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500" href="index.html" aria-current="page">Accueil</a>
+              <a class="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500" href="a_propos.html">A propos</a>
+              <a class="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500" href="portfolio.html">Portfolio</a>
+              <a class="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500" href="contact.html">Contact</a>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <section class="py-10 md:py-16 bg-[url('src/images/10662418.jpg')] bg-cover bg-center">
+
+        <div class="container max-w-screen-xl mx-auto px-4">
+
+            <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-16">A propos de moi</h1>
+            
+            <div class="text-center">
+
+                <p class="font-normal text-gray-600 text-md md:text-xl mb-16">Bienvenue !<br>Je m'appelle Ek-Tchay POV, je recherche activement un contrat de professionnalisation en tant que Développeur Fullstack d'une durée de 1 an voire 3 ans idéalement.
+                    Anciennement ingénieur d'études en biologie, j'ai décidé de me tourner vers le secteur de l'IT en quête de découvertes, de nouveaux challenges et surtout un CDI. Curieux et de nature réfléchie, ma devise est de ne jamais cesser d’apprendre.</p>
+                   
+                <a href="contact.html" class="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">Hire me</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="py-10 md:py-16">
+
+        <div class="container max-w-screen-xl mx-auto px-4">
+
+            <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Compétences</h1>
+
+                <!-- component -->
+                <div class="flex gap-2">
+                    <div class="center relative inline-block select-none whitespace-nowrap rounded-lg bg-blue-500 py-2 px-3.5 align-baseline font-sans text-xs font-bold uppercase leading-none text-white">
+                      <div class="mt-px">TypeScript</div>
+                    </div>
+                    <div class="center relative inline-block select-none whitespace-nowrap rounded-lg bg-red-500 py-2 px-3.5 align-baseline font-sans text-xs font-bold uppercase leading-none text-white">
+                      <div class="mt-px">HTML/CSS</div>
+                    </div>
+                    <div class="center relative inline-block select-none whitespace-nowrap rounded-lg bg-green-500 py-2 px-3.5 align-baseline font-sans text-xs font-bold uppercase leading-none text-white">
+                      <div class="mt-px">Python</div>
+                    </div>
+                    <div class="center relative inline-block select-none whitespace-nowrap rounded-lg bg-pink-500 py-2 px-3.5 align-baseline font-sans text-xs font-bold uppercase leading-none text-white">
+                      <div class="mt-px">NodeJS</div>
+                    </div>
+                    <div class="center relative inline-block select-none whitespace-nowrap rounded-lg bg-indigo-500 py-2 px-3.5 align-baseline font-sans text-xs font-bold uppercase leading-none text-white">
+                      <div class="mt-px">Docker</div>
+                    </div>
+                    <div class="center relative inline-block select-none whitespace-nowrap rounded-lg bg-purple-500 py-2 px-3.5 align-baseline font-sans text-xs font-bold uppercase leading-none text-white">
+                      <div class="mt-px">MySQL</div>
+                    </div>
+                    <div class="center relative inline-block select-none whitespace-nowrap rounded-lg bg-blue-500 py-2 px-3.5 align-baseline font-sans text-xs font-bold uppercase leading-none text-white">
+                      <div class="mt-px">Figma</div>
+                    </div>
+                    <div class="center relative inline-block select-none whitespace-nowrap rounded-lg bg-red-500 py-2 px-3.5 align-baseline font-sans text-xs font-bold uppercase leading-none text-white">
+                      <div class="mt-px">Bash</div>
+                    </div>
+                    <div class="center relative inline-block select-none whitespace-nowrap rounded-lg bg-green-500 py-2 px-3.5 align-baseline font-sans text-xs font-bold uppercase leading-none text-white">
+                      <div class="mt-px">Gitlab</div>
+                    </div>
+                  </div>
+                  
+                  <div class="w-full pt-5 px-4 mb-8 mx-auto ">
+                      <div class="text-sm text-gray-700 py-1">
+                          Made with <a class="text-gray-700 font-semibold" href="https://www.material-tailwind.com/docs/html/chip?ref=tailwindcomponents" target="_blank">Material Tailwind</a> by <a href="https://www.creative-tim.com?ref=tailwindcomponents" class="text-gray-700 font-semibold" target="_blank"> Creative Tim</a>.
+                      </div>
+                  </div>
+                  
+                  <!-- stylesheet -->
+                  <link
+                    rel="stylesheet"
+                    href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css"
+                  />
+
+
+            <div class="text-center">
+                <p class="font-medium text-gray-700 text-xs md:text-base">Durant la période CodeToWork de l'ETNA, j'ai pu acquérir des compétences sur différents langages/frameworks<br>et développer des projets en parallèle qui seront valorisables lors de ma recherche d'alternance.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="py-10 md:py-16">
+
+        <div class="container max-w-screen-xl mx-auto px-4">
+
+            <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Experiences</h1>
+
+            <p class="font-normal text-gray-500 text-xs md:text-base mb-20">Mes expériences ont été principalement dans le secteur de la santé et de la recherche.<br>Je souhaite désormais m'ouvrir au monde de l'IT afin de monter en compétences et d'être rapidement opérationnel sur le marché.</p>
+
+            <div class="flex flex-col lg:flex-row justify-between">
+                <div class="space-y-8 md:space-y-16 mb-16 md:mb-0">
+                    <h6 class="font-medium text-gray-400 text-base uppercase">Entreprises / Instituts</h6>
+
+                    <p class="font-semibold text-gray-600 text-base">Association Robert Debré <span class="font-normal text-gray-300">Paris</span></p>
+
+                    <p class="font-semibold text-gray-600 text-base">Institut Pasteur <span class="font-normal text-gray-300">Paris</span></p>
+
+                    <p class="font-semibold text-gray-600 text-base">Uber Eats <span class="font-normal text-gray-300">Marne-la-Vallée</span></p>
+
+                    <p class="font-semibold text-gray-600 text-base">Institut de Minéralogie, Physique,<br>Mathématiques et de Minéralogie <span class="font-normal text-gray-300">Paris</span></p>
+
+                    <p class="font-semibold text-gray-600 text-base">Lycée Rabelais <span class="font-normal text-gray-300">Paris</span></p>
+                </div>
+
+                <div class="space-y-8 md:space-y-16 mb-16 md:mb-0">
+                    <h6 class="font-medium text-gray-400 text-base uppercase">Postes</h6>
+
+                    <p class="font-normal text-gray-400 text-base">Ingénieur d'études en biologie</p>
+
+                    <p class="font-normal text-gray-400 text-base">Stagiaire Master 2</p>
+
+                    <p class="font-normal text-gray-400 text-base">Chauffeur-livreur, autoentrepreneur</p>
+
+                    <p class="font-normal text-gray-400 text-base">Alternant Technicien supérieur de laboratoire</p>
+
+                    <p class="font-normal text-gray-400 text-base">Aide de laboratoire</p>
+                </div>
+
+                <div class="space-y-8 md:space-y-16">
+                    <h6 class="font-medium text-gray-400 text-base uppercase">Années</h6>
+
+                    <p class="font-normal text-gray-400 text-base">2022 - 2025 (3 ans)</p>
+
+                    <p class="font-normal text-gray-400 text-base">2020 - 2021 (1 an et 4 mois)</p>
+
+                    <p class="font-normal text-gray-400 text-base">2021 (6 mois)</p>
+
+                    <p class="font-normal text-gray-400 text-base">2018 - 2019 (1 an)</p>
+
+                    <p class="font-normal text-gray-400 text-base">2018 (7 mois)</p>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+        <section class="py-10 md:py-16">
+
+            <div class="container max-w-screen-xl mx-auto px-4">
+
+                <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Formations</h1>
+
+                <p class="font-normal text-gray-500 text-xs md:text-base mb-20">Ci-dessous, un résumé des formations que j'ai suivies</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h4 class="font-bold text-gray-700 text-xl mb-4">Bachelor 3</h4>
+
+                        <p class="font-bold text-gray-500 text-md mb-4">Concepteur développeur d'applications<br>(bac +3)<br>ETNA, Ivry-sur-Seine (94)<br>En recherche d'alternance (1 an)</p>
+
+                        <div class="relative">
+                            <h6 class="font-bold text-gray-500 text-md relative z-10">2025 – 2026</h6>
+                            <span class="w-24 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">Master 2</h4>
+
+                        <p class="font-normal text-gray-500 text-md mb-4">Microbiologie et Génie Biologique<br>Université Paris-Saclay (91)<br>Spécialité Recherche</p>
+
+                        <div class="relative">
+                            <h6 class="font-semibold text-gray-500 text-md relative z-10">2019 – 2021</h6>
+                            <span class="w-24 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">Licence 3 Pro</h4>
+
+                        <p class="font-normal text-gray-500 text-md mb-4">Bioindustries et Biotechnologies <br> Sorbonne Universités, Paris (75) <br> Mention AB</p>
+
+                        <div class="relative">
+                            <h6 class="font-semibold text-gray-500 text-md relative z-10">2018 - 2019</h6>
+                            <span class="w-24 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">BTS</h4>
+
+                        <p class="font-normal text-gray-500 text-md mb-4">Bioanalyses et Contrôles<br>Lycée Pierre-Gilles de Gennes - ENCPB, Paris (75)<br>Mention AB</p>
+
+                        <div class="relative">
+                            <h6 class="font-semibold text-gray-500 text-md relative z-10">2015 - 2017</h6>
+                            <span class="w-24 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">Ecole d'infirmier</h4>
+
+                        <p class="font-normal text-gray-500 text-md mb-4">Stage à l'hôpital Tenon<br>IFSI Tenon, Paris (75)<br>Service néphrologie</p>
+
+                        <div class="relative">
+                            <h6 class="font-semibold text-gray-500 text-md relative z-10">2014</h6>
+                            <span class="w-10 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">PACES</h4>
+
+                        <p class="font-normal text-gray-500 text-md mb-4">Première Année Commune aux Etudes de Santé<br>Université Paris-Est Créteil, Créteil (94)<br></p>
+
+                        <div class="relative">
+                            <h6 class="font-semibold text-gray-500 text-md relative z-10">2013</h6>
+                            <span class="w-10 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">Bac STL</h4>
+
+                        <p class="font-normal text-gray-500 text-md mb-4">Sciences et Technologies de Laboratoire<br>Lycée Emily Brontë, Lognes (77)<br>Mention AB</p>
+
+                        <div class="relative">
+                            <h6 class="font-semibold text-gray-500 text-md relative z-10">2011 – 2013</h6>
+                            <span class="w-16 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="py-10 md:py-16">
+
+            <div class="container max-w-screen-xl mx-auto px-4">
+
+                <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Brands</h1>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-10">
+                    <img src="src/images/ARDRM.jpg" alt="Logo Association Robert Debré">
+
+                    <img src="src/images/INSTITUT_PASTEUR_LOGO_2020.jpg" alt="Logo Institut Pasteur">
+
+                    <img src="src/images/IMPMC_logo.png" alt="Logo IMPMC" width="68%">
+            </div>
+
+        </section>
+
+        <footer class="py-10 md:py-16 mb-20 md:mb-40 lg::mb-52">
+
+            <div class="container max-w-screen-xl mx-auto px-4">
+
+                <div class="text-center">
+                    <h1 class="font-medium text-gray-700 text-4xl md:text-5xl mb-5">Links</h1>
+                    <a href="contact.html">
+                        <p class="font-normal text-gray-400 text-md md:text-lg mb-20">Pour me contacter, cliquez ici pour être redirigé vers la section contact<br></p>
+                    </a>
+
+                    <div class="flex items-center justify-center space-x-8">
+                        <a href="https://www.linkedin.com/in/ek-tchay-pov/" target="_blank" rel="noopener noreferrer">
+                            <img src="src/images/linkedin.svg" alt="Logo Linkedin" width="100%">
+                        </a>
+                        
+                        <a href="https://github.com/Ek-Tchay" target="_blank" rel="noopener noreferrer">
+                            <img src="src/images/github.svg" alt="Image" width="100%">
+                        </a>
+
+                        <a href="a_propos.html">
+                            <img src="src/images/chevron-up.svg" alt="Image" width="100%">
+                        </a>
+    
+                    </div>
+                </div>
+
+            </div>
+
+        </footer>
+
+
+        <script>
+            feather.replace()
+        </script>
+
+    </body>
+</html>
