@@ -8,3 +8,7 @@ import {
 } from 'tw-elements';
 
 initTWE({ Collapse, Dropdown, Ripple, Carousel });
+
+const setSubmitListener = async () => {
+    const submitButton = document.querySelector ('#submit')
+}
